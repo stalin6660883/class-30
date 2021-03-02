@@ -1,0 +1,73 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+} 
+
+.navbar .menu{
+    margin-left: 425px;
+    
+}
+/* .navbar .btn{
+    margin-right: 30px;
+} */
+
+/* benner-part */
+.benner-part{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px;
+}
+.benner-part .btn{
+    font-size: 30px;
+}
+/*  */
+.title{
+    background: #f7f7f7;
+}
+
+/*  */
+.card-item{
+    height: 300px;
+    box-shadow: 4px 5px 25px 0 rgba(64, 87, 191, .3);
+}
+.img-item{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.img-item img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.text-title{
+    width: 60%;
+    padding-left: 30px;
+}
+
+.price{
+    background:#f7f7f7;
+}
+/* hover */
+
+.all-img{
+    position: relative;
+    display: block;
+}
+.all-img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(92, 120, 223, .4);
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+ .all-img:hover  a::after{
+    opacity: 1;
+    visibility: visible;
+}
